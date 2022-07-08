@@ -37,7 +37,7 @@
 
 ## Overview
 
-![screenshot](https://bouakram.github.io/404-not-found-master/imagedemo.png)
+![screenshot](https://github.com/bouakram/404-not-found-master/blob/main/imagedemo.png)
 
 thid is a simple 404 page error 
 
