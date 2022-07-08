@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Devchallenges</title>
+
+    <style>
+      *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body{
+        font-family: 'Space Mono', monospace;
+        max-width: 1020px;
+        margin: auto;
+      }
+
+      .error-title{
+        display: flex;
+        justify-content: flex-start;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 25px;
+        letter-spacing: -0.08em;
+        text-transform: uppercase;
+        color: #333333;
+      }
+
+      .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 25px;
+        margin: 50px auto;
+      }
+
+      .header{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 95px;
+        letter-spacing: -0.035em;
+        color: #333333;
+      }
+
+      .text-info{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: -0.035em;
+        color: #4F4F4F;
+      }
+
+      .btn{
+        width: 216px;
+        height: 68px;
+        left: 740px;
+        top: 663px;
+        background: #333333;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: -0.035em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        cursor: pointer;
+      }
+      img{
+        Width: 539.22px;
+        Height:447.43px;
+        margin: auto;
+      }
+
+      .d-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 25px;
+      }
+
+      @media screen and (max-width: 500px) {
+        .container{
+          grid-template-columns: 1fr;
+        }
+        img{
+        Width: 286.83px;
+        Height:238px;
+      }
+      .header{
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 71px;
+        letter-spacing: -0.035em;
+      }
+      .text-info{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: -0.035em;
+      }
+      .btn{
+        width: 216px;
+        height: 68px;
+        left: 24px;
+        top: 726px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: -0.035em;
+      }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="error-title">404 not found</header>
+    <main class="container">
+      <img src="./Scarecrow.png" alt="Scarecrow">
+      <div class="d-flex">
+        <h1 class="header">I have bad news for you</h1>
+        <p class="text-info">The page you are looking for might be removed or is temporarily unavailable</p>
+        <button class="btn">Back to homepage</button>
+      </div>
+    </main>
+  </body>
+</html>
